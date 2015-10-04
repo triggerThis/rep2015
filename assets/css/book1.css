@@ -1,0 +1,122 @@
+﻿.album {
+    width:100%;
+    height:100%;
+}
+.album-photo {
+    width:inherit;
+    height:80%;
+    overflow:inherit;
+}
+.album-photo  img {
+    /*width:inherit;*/
+    height: auto; 
+    height:inherit;
+    width: auto;     
+    width:100%;
+    /*overflow:inherit;*/
+}
+.album-picBar-father {
+    width:inherit;
+    height:20%;
+    overflow-y:initial;
+}
+.album-left-nav {
+    display:inline-block;
+    width:2%;
+    height:100%;
+    background-color:gray;
+}
+.album-right-nav {
+    display:inline-block;
+    width:2%;
+    height:100%;
+}
+.album-picBar {
+    display:inline-block;
+    width:96%;    
+    height:100%;    
+    overflow:inherit;
+    column-count:4;
+}
+
+.album-picBar-imgDiv {
+    display: inline-block;    
+    height: 100%;
+    background-color:green;
+    overflow:hidden;
+}
+/*.album-picBar-img*/ 
+.album-picBar-imgDiv img{          
+  
+    /*height:100%;*/    
+    
+    overflow:hidden; 
+     width:inherit; 
+    height:auto;
+    height:inherit;
+    /*background-color:green;*/
+    
+}
+   img:hover {
+        border: solid 10px #000;
+    } 
+   .album-picBar-imgDiv:hover {
+        border: solid 10px #f00;
+    } 
+
+div .user-oper {
+   background-color:gray;
+   
+}
+
+/* for plugin*/
+.plug-root {
+    width:100%;
+    height:1%;
+}
+.plug-name{
+    /*just for oper indentity*/
+}
+.plug-grid{
+     /*just for layout indentity*/
+}
+.v-eightPer{
+    width:100%;
+    height:80%;
+} 
+.v-twoPer{
+    width:100%;
+    height:20%;
+}
+.v-bar{
+    width:100%;
+    height:100%; /*父容器的*/
+}
+.v-barcell{
+    width:100%;
+    height:1%;
+}
+.h-bar{
+    width:100%;
+    height:1%;
+}
+.grid-row{
+    width:100%;
+    height:1%;
+}
+.grid-col{
+    width:100%;
+    height:1%;
+}
+.row-cell{
+    width:100%;
+    height:1%;
+}
+.col-cell{
+    width:100%;
+    height:1%;
+}
+.plug-content{
+    width:100%;
+    height:1%;
+}
